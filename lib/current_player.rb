@@ -1,5 +1,10 @@
-def turn_count
-
+def turn_count(board)
+  occupied_spaces = 0
+  board.each do |space|
+    if space === "X" || space === "O"
+      occupied_spaces += 1
+    end
+  end
 end
 
 def current_player
