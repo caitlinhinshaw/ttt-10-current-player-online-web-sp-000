@@ -5,6 +5,7 @@ def turn_count(board)
       occupied_spaces += 1
     end
   end
+  occupied_spaces
 end
 
 def current_player
