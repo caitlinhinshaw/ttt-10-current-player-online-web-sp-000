@@ -8,6 +8,10 @@ def turn_count(board)
   occupied_spaces
 end
 
-def current_player
-
+def current_player(board)
+  if turn(board) % 2 = 0
+    "X"
+  else
+    "O"
+  end
 end
